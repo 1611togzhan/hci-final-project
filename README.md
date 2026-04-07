@@ -20,6 +20,10 @@ This Streamlit app allows users to upload CSV, Excel, or JSON data, inspect data
 ## Video link
 https://drive.google.com/file/d/1Pz39TxikT-2gbHEqaDypX8Ci64zuUq4z/view?usp=sharing
 
+## GitHub Repository
+https://github.com/1611togzhan/hci-final-project
+
+
 ## Run locally
 ```bash
 pip install -r requirements.txt
