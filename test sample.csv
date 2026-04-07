@@ -1,0 +1,11 @@
+age,gender,salary,city,department,date,experience,score
+25,Female,1200,Almaty,HR,2023-01-01,2,78
+30,Male,2000,Astana,IT,2023-01-02,5,88
+22,Female,,Almaty,Marketing,2023-01-03,1,67
+35,Male,3000,Shymkent,IT,2023-01-04,10,92
+28,Female,1800,Almaty,HR,2023-01-05,3,81
+40,Male,,Astana,Finance,2023-01-06,12,95
+26,Female,1500,Shymkent,Marketing,2023-01-07,2,73
+29,Male,2100,Almaty,IT,2023-01-08,4,85
+31,Female,2200,Astana,Finance,2023-01-09,6,89
+27,Male,,Almaty,HR,2023-01-10,3,76

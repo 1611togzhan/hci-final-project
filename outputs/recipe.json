@@ -1,0 +1,58 @@
+[
+  {
+    "timestamp": "2026-04-08T01:07:49",
+    "operation": "missing_values",
+    "params": {
+      "action": "Fill selected numeric columns with median",
+      "threshold": 50,
+      "constant": ""
+    },
+    "affected_columns": [
+      "age",
+      "gender",
+      "salary"
+    ]
+  },
+  {
+    "timestamp": "2026-04-08T01:08:03",
+    "operation": "remove_duplicates",
+    "params": {
+      "keep": "first"
+    },
+    "affected_columns": []
+  },
+  {
+    "timestamp": "2026-04-08T01:08:21",
+    "operation": "convert_type",
+    "params": {
+      "target_type": "datetime",
+      "datetime_format": ""
+    },
+    "affected_columns": [
+      "date"
+    ]
+  },
+  {
+    "timestamp": "2026-04-08T01:08:39",
+    "operation": "numeric_cleaning",
+    "params": {
+      "action": "cap/winsorize",
+      "lower_q": 0.13,
+      "upper_q": 0.99
+    },
+    "affected_columns": [
+      "age"
+    ]
+  },
+  {
+    "timestamp": "2026-04-08T01:08:48",
+    "operation": "scaling",
+    "params": {
+      "method": "min-max"
+    },
+    "affected_columns": [
+      "age",
+      "experience"
+    ]
+  }
+]
